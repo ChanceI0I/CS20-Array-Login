@@ -102,4 +102,3 @@ function loadUserdata() {
 function MD5_Encryption(Message) {
     return Crypto.MD5(Crypto.MD5(Message))
 }
-
