@@ -53,7 +53,7 @@ function addMember() {
 function CheckInfo(username, password) {
     let login = false;
     for(let i=0; i<allUserData.length; i++) {
-        if (username == allUserData[i].username) {
+        if (username == allUserData[i].username) {    //(username == allUserData[i].username && password == allUserData[i].password)
             if (password == allUserData[i].password) {
                 login = true;
                 alert("login successful")
